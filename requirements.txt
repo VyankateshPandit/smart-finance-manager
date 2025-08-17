@@ -5,3 +5,4 @@ Flask-Mail
 google-generativeai
 Werkzeug
 python-dotenv
+gunicorn
