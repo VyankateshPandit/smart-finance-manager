@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, session, flash
+from flask import Flask, render_template, request, redirect, url_for, session, flash ,jsonify
 from flask_mysqldb import MySQL
 import MySQLdb.cursors
 from flask_mail import Mail, Message
@@ -7,15 +7,14 @@ import os
 import google.generativeai as genai
 from werkzeug.security import generate_password_hash, check_password_hash
 import mysql.connector 
-
+from dotenv import load_dotenv
 app = Flask(__name__)
-
+load_dotenv()
 # MySQL Configuration
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '-'  
-app.config['MYSQL_DB'] = 'SFM'
-
+app.config['MYSQL_HOST'] = os.getenv("DB_HOST")
+app.config['MYSQL_USER'] = os.getenv("DB_USER")
+app.config['MYSQL_PASSWORD'] = os.getenv("DB_PASS")
+app.config['MYSQL_DB'] = os.getenv("DB_NAME")
 
 # Secret key for mail and session
 app.secret_key = os.urandom(24)
@@ -34,7 +33,7 @@ mail = Mail(app)
 mysql = MySQL(app)
 
 # Ask ai apikey
-genai.configure(api_key="-") #gemini api key
+genai.configure(api_key=os.getenv("GEMINI_API")) #gemini api key
 
 @app.route('/')
 def index():
@@ -258,18 +257,8 @@ def expenses():
     
     elif request.method == "POST":
         try:
-            # Handle AI assistant query
-            if "prompt" in request.form:
-                prompt = request.form["prompt"]
-                try:
-                    model = genai.GenerativeModel("gemini-1.5-pro-latest")
-                    reply = model.generate_content(prompt)
-                    response = reply.text
-                except Exception as e:
-                    response = f"Error: {e}"
-            
             # Handle add expense
-            elif "expenseAmount" in request.form and "expenseCategory" in request.form:
+            if "expenseAmount" in request.form and "expenseCategory" in request.form:
                 amount = int(float(request.form["expenseAmount"]))
                 category = request.form["expenseCategory"].lower()
                 
@@ -413,7 +402,20 @@ def expenses():
             expense_data['other']
         )
         
-        return render_template('expenses.html', response=response, expense_data=expense_data, total=total)
+        return render_template('expenses.html', expense_data=expense_data, total=total)
+    
+@app.route("/ask_ai", methods=["POST"])
+def ask_ai():
+    try:
+        data = request.get_json()
+        prompt = data.get("prompt", "")
+
+        model = genai.GenerativeModel("gemini-2.5-flash-lite")
+        reply = model.generate_content(prompt)
+
+        return jsonify({"response": reply.text})
+    except Exception as e:
+        return jsonify({"error": str(e)})
 
 @app.route('/dashboard')
 def dashboard():
