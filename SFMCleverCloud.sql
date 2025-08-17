@@ -26,6 +26,10 @@ CREATE TABLE expenses (
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
+
+
+SHOW TABLE STATUS FROM bvqz6jhdp0qfrk6tvjtp;
+
 drop table expenses;
 select * from users;
 select * from expenses;
