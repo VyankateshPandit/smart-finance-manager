@@ -1,7 +1,7 @@
-CREATE DATABASE SFM;
+CREATE DATABASE bvqz6jhdp0qfrk6tvjtp;
 
 -- Use the database
-USE SFM;
+USE bvqz6jhdp0qfrk6tvjtp;
 
 -- Create Users Table
 -- Modified tables with a proper relationship
