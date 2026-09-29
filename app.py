@@ -410,7 +410,7 @@ def ask_ai():
         data = request.get_json()
         prompt = data.get("prompt", "")
 
-        model = genai.GenerativeModel("gemini-2.5-flash-lite")
+        model = genai.GenerativeModel("gemini-3.5-flash-lite")
         reply = model.generate_content(prompt)
 
         return jsonify({"response": reply.text})
