@@ -2,8 +2,16 @@ Flask
 flask-mysqldb
 mysqlclient
 Flask-Mail
+Flask-Cors
 google-generativeai
+google-genai
+groq
 Werkzeug
 python-dotenv
 gunicorn
 mysql-connector-python
+Flask-SQLAlchemy
+Flask-Migrate
+pinecone
+pydantic
+
