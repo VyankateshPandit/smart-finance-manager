@@ -20,15 +20,21 @@ load_dotenv()
 app = Flask(__name__)
 
 # Enable CORS for React Frontend
-CORS(app, 
-     supports_credentials=True, 
+# Add your deployed frontend URL to FRONTEND_URL in .env (e.g. https://your-site.netlify.app)
+_frontend_url = os.getenv("FRONTEND_URL", "")
+_allowed_origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+if _frontend_url:
+    _allowed_origins.append(_frontend_url)
+
+CORS(app,
+     supports_credentials=True,
      resources={r"/*": {
-         "origins": [
-             "http://localhost:5173", 
-             "http://127.0.0.1:5173",
-             "http://localhost:3000",
-             "http://127.0.0.1:3000"
-         ],
+         "origins": _allowed_origins,
          "allow_headers": ["Content-Type", "Authorization", "Cookie", "X-Requested-With"],
          "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
          "supports_credentials": True
@@ -38,13 +44,7 @@ CORS(app,
 @app.after_request
 def add_cors_headers(response):
     origin = request.headers.get('Origin')
-    allowed_origins = [
-        "http://localhost:5173", 
-        "http://127.0.0.1:5173",
-        "http://localhost:3000",
-        "http://127.0.0.1:3000"
-    ]
-    if origin in allowed_origins:
+    if origin in _allowed_origins:
         response.headers['Access-Control-Allow-Origin'] = origin
         response.headers['Access-Control-Allow-Credentials'] = 'true'
         response.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization, Cookie, X-Requested-With'
@@ -55,10 +55,11 @@ def add_cors_headers(response):
 app.secret_key = os.getenv("SECRET_KEY", "sfm_super_secret_jwt_and_session_key_2026")
 
 # Session Cookie Configuration for Cross-Origin Requests
+_is_production = bool(os.getenv("FRONTEND_URL", ""))  # True when a prod frontend URL is set
 app.config.update(
     SESSION_COOKIE_HTTPONLY=True,
-    SESSION_COOKIE_SAMESITE='Lax',
-    SESSION_COOKIE_SECURE=False, # Set to True in production with HTTPS
+    SESSION_COOKIE_SAMESITE='None' if _is_production else 'Lax',
+    SESSION_COOKIE_SECURE=_is_production,  # Must be True with SameSite=None
 )
 
 # MySQL Configuration for flask-mysqldb
