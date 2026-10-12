@@ -27,7 +27,7 @@ _allowed_origins = [
     "http://127.0.0.1:5173",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://ai-fm.onrender.com",
+    "https://finance-management-web.netlify.app",
 ]
 if _frontend_url:
     _allowed_origins.append(_frontend_url)
