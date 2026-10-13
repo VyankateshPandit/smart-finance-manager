@@ -186,7 +186,14 @@ def api_login():
                 otp_expiry = datetime.utcnow() + timedelta(minutes=10)
                 cursor.execute('UPDATE users SET otp_code = %s, otp_expiry = %s WHERE id = %s', (otp_code, otp_expiry, account['id']))
                 mysql.connection.commit()
-                send_otp_email(mail, account['email'], account['fname'], otp_code)
+                email_sent, mail_err = send_otp_email(mail, account['email'], account['fname'], otp_code)
+
+                if not email_sent:
+                    print(f"[EMAIL ERROR] Brevo/Mail failed during login OTP: {mail_err}")
+                    return jsonify({
+                        "success": False,
+                        "error": "Email service is currently unavailable. Please try again in a few minutes."
+                    }), 503
 
                 return jsonify({
                     "success": False,
@@ -268,12 +275,18 @@ def api_signup():
         # Send OTP email
         email_sent, mail_err = send_otp_email(mail, email, fname, otp_code)
 
+        if not email_sent:
+            print(f"[EMAIL ERROR] Brevo/Mail failed during signup OTP: {mail_err}")
+            return jsonify({
+                "success": False,
+                "error": "Email service is currently unavailable. Please try again in a few minutes."
+            }), 503
+
         return jsonify({
             "success": True,
             "require_otp": True,
             "email": email,
-            "message": f"Verification code sent to {email}. Please enter it to activate your account.",
-            "email_sent": email_sent
+            "message": f"Verification code sent to {email}. Please enter it to activate your account."
         }), 200
 
     except Exception as e:
@@ -364,10 +377,16 @@ def api_resend_otp():
 
         email_sent, mail_err = send_otp_email(mail, user['email'], user['fname'], otp_code)
 
+        if not email_sent:
+            print(f"[EMAIL ERROR] Brevo/Mail failed during resend OTP: {mail_err}")
+            return jsonify({
+                "success": False,
+                "error": "Email service is currently unavailable. Please try again in a few minutes."
+            }), 503
+
         return jsonify({
             "success": True,
-            "message": f"A new verification code has been sent to {email}.",
-            "email_sent": email_sent
+            "message": f"A new verification code has been sent to {email}."
         }), 200
 
     except Exception as e:

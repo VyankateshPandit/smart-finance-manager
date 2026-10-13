@@ -1,0 +1,896 @@
+CBCS
+:
+2020-2
+CSDP234C:
+1  
+Project and 
+1.Introduction  
+1.1 Motivation  
+1.2 Problem statement  
+1.3 Purpose/objective and goals 
+1.4 Literature /Survey  
+1.5 Project scope and limitations  
+2. System analysis  
+2.1 Existing systems  
+Project 
+Rela
+ted 
+2.2 Scope and limitations of existing systems  
+2.3 Project perspective, features  
+2.4 Stakeholders 
+2.5 Requirement analysis  
+Assignments  
+2.6 Functional requirements, performance requirements, security requirements etc.  
+3. System Design  
+3.1​ 
+Design constraints  
+3.2  System Model: UML diagrams  
+3.3  Data Model  
+3.4  User interfaces  
+4. Implementation details  
+4.1 Software/hardware specifications  
+5. Outputs and Reports  
+6. Testing  
+6.1 Test Plan, Black Box Testing or Data Validation Test Cases, White Box Testing  
+or Functional Validation Test cases and results  
+7. Conclusion and Recommendations Future Scope 
+ 8. Bibliography and References  
+A suggested list of assignments is given below.  
+1. Project Time management: plan (schedule table), Gantt chart, Roles and  
+responsibilities, data collection, Implementation 
+ 2. Simple assignments to evaluate choice of technology  
+3. Assignments on Ul elements in chosen technology 
+ 4. Assignments on User interfaces in the project  
+5. Assignments on event handling in chosen technology 
+ 6. Assignments on Data handling in chosen technology 
+ 7. Online and offline connectivity  
+8. Report generation 
+9. Deployment considerations  
+10. Test cases  
+ 
+1.Introduction  
+Project work is an activitywhich aims to give students learning experience the chance to               
+synthesize their knowledge fromdifferent areasof learning,whichiscriticallyandcreatively             
+applied to current life situations. 
+It progresses under the guidance and monitoring of an advisor or a mentor. 
+Theintroductionof theProject isnot just thebeginningof theproject,but itgives the outlines                  
+of theobjectivesof theproject. It relatestotheaimsthatyouhadforaccomplishingtheproject                  
+and the introductiongivesanideaof all theobjectives thatyouwishtoachieve throughthe                 
+project work. 
+Inthe introductionyouhave tomention whyyouare interestedindoingtheproject,andyou                 
+have togive thewholebackgroundi.e thefoundationfromwhichthe ideabehindtheproject                
+emerged.Givingbackground information isvital as it tells the longbackhistorybehindthe               
+context of the project work. 
+ 
+Theintroductionisamustforallsortsoftheprojectasitactsasamirrortowhatiswritteninthe                       
+project. 
+1.1 Motivation  
+Motivation​ is the word derived from the word 'motive' which means needs, desires, wants or 
+drives within the individuals. It is the process of stimulating people to actions to accomplish the 
+goals. In the work goal context the psychological factors stimulating the people's behaviour can 
+be - desire for Success. 
+Unlike most tangible project management functions, motivation is not designated by the project 
+manager to a team member, instead motivation is internal to each team member and derived from 
+a team member's desire to achieve a goal, accomplish a task, or work toward expectations. 
+What should we write in Project motivation? 
+It is about to explain what your ultimate goal is and what you want  to accomplish in that 
+capacity. Then explaining your role  in the project to reach the goal. 
+Here are four different types of motivation that can compel people to act 
+Extrinsic Motivation 
+Extrinsic motivation comes from outside us. We do it because we are impelled to, for 
+example because we are told to by someone who has power over us. 
+Many employment motivation systems work on the principle of extrinsic reward, 
+because  this is effective for simple activities but  it is less useful when you want a 
+person to be self-driven. 
+Intrinsic Motivation 
+Intrinsic motivation is done for internal reasons, for example to align with values or 
+simply for the hedonistic pleasure of doing something. 
+In work, people are intrinsically motivated by working for an inspiring leader or in 
+areas where they have a personal interest. 
+Introjected Motivation 
+Introjected motivation is similar to intrinsic motivation in that it is internalized. The 
+distinctive aspect of this is that if it is not done, then the person feels the tension of 
+guilt. 
+Identified Motivation 
+Identified motivation is where a person knows that something needs doing but has not 
+yet decided to do anything about it. 
+http://vlabs.iitkgp.ernet.in/se/ 
+1.2 Problem statement  
+A simple and well-defined problem statement is used by the project team to understand the 
+problem and work toward developing a solution. 
+Problem statements often have three elements: the ​ problem 
+contextual detail to establish why it is​ important;
+itself, stated clearly and with enough 
+ the method of solving the problem, often 
+stated as a claim or a working thesis; the​ purpose
+1.3 Purpose/objective and goals 
+, statement of objective and scope. 
+The first  step in all projects of business, home, or education, is to define goals and objectives. 
+This step defines the project's outcome and the steps required to achieve that outcome.  Goals and 
+objectives must be clear statements of purpose. Each with its own purpose that drives the end 
+result of the project. 
+The purpose of determining the work Goals and Objectives is fundamental steps of project 
+management. Setting them allows one to plan, organize and control the sequence, time duration, 
+resources and cost of activities required to ensure project success 
+Project management objectives are the successful development of the project's procedures of 
+initiation, planning, execution, regulation and closure. Also it is about the guidance of the project 
+team's operations towards achieving the goals within the set scope, time, quality and budget 
+standards. 
+Goals and objectives are statements that describe what the project will accomplish, or the 
+business value the project will achieve. 
+Goals are high level statements that provide overall context for what the project is trying to 
+achieve, and should align to business goals. 
+Objectives are lower level statements that describe the specific, tangible products and 
+deliverables that the project will deliver. 
+The definition of goals and objectives is more of an art than a science, and it can be difficult to 
+define them and align them correctly. 
+Goals are high-level statements that provide the overall context for what the project is trying to 
+accomplish. 
+Because the goal is at a high-level, It may take many projects over a long period of time to 
+achieve the goal. 
+The goal should reference the business benefit in terms of cost, speed and / or quality.  
+For instance, an IT infrastructure project to install new web servers may ultimately allow faster 
+client response, better price performance, or other business benefit. If there is no business value 
+to the project, the project should not be started. 
+Goal generally non-measurable: If you can measure the achievement of your goal, it is probably 
+at too low a level and is probably more of an objective. 
+If your goal is not achievable through any combination of projects, it is probably written at too 
+high a level.  
+It is important to understand business and project goal statements, Goals are most important from 
+a business perspective. The project manager needs to understand the business goals that the 
+project is trying to contribute to. However, you do not need to define specific project goals. On 
+the other hand, objectives definitely are important. 
+Objectives are concrete statements describing what the project is trying to achieve. The objective 
+should be written at a lower level, so that it can be evaluated at the conclusion of a project to see 
+whether it was achieved or not. Goal statements are designed to be vague. Objectives should not 
+be vague. A well-worded objective will be Specific, Measurable, Attainable/Achievable, 
+Realistic and Time-bound (SMART). 
+Note that the objective is much more concrete and specific than the goal statement. 
+We must assume that the objective is achievable,realistic and time-bound. 
+Objectives should refer to the deliverables of the project.  
+1.4 Literature /Survey  
+Definition. A literature review is a comprehensive summary of previous research on the similar 
+topic. The literature review surveys scholarly articles, books, and other sources relevant to a 
+particular area of research. The review should enumerate, describe, summarize, objectively 
+evaluate and clarify this previous research. 
+Steps in the literature review process 
+Read and evaluate the sources and to determine their suitability to the understanding of the topic. 
+Analyse, interpret and discuss the findings and conclusions of the sources you selected. 
+How do you write a literature survey? 
+Literature Review: Conducting & Writing 
+1.Choose a topic.  
+2.Decide on the scope of your review.  
+3. Select the databases you will use to conduct your searches. 
+4.Conduct your searches and find the literature. 
+5.Review the literature. 
+The purpose of a literature review is to: 
+Provide a foundation of knowledge on the topic. Identify inconsistencies: gaps in research, 
+conflicts in previous studies, open questions left from other research. 
+A literature review surveys books, scholarly articles, and any other sources relevant to a 
+particular issue, area of research, or theory, and by so doing, provides a description, summary, 
+and critical evaluation of these works in relation to the research problem being investigated. 
+1.5 Project scope and limitations  
+What is in the scope and limitations? 
+Delimitations aim to narrow the scope of a study. For example, the scope may focus on 
+specific variables, specific participants, specific sites, or narrowed to one type of research 
+design (e.g., ethnography or experimental research). Limitations, however, aim to identify 
+potential weaknesses of the study. 
+The purpose of a scope and limitations statement is to provide an outline of what your project 
+will address and what it won't address.A timeline with major tasks to be accomplished for the 
+project and which team member will take a leadership role and responsibility for the task. 
+8 Key Steps to Developing a Project Scope Statement 
+1. Understand why the project was initiated.  
+2. Define the key objectives of the project.  
+3. Outline the project statement of work.  
+4. Identify major deliverables.  
+5. Select key milestones.  
+6. Identify major constraints.  
+7. List ​ scope
+ exclusions.  
+8. Obtain sign-off. 
+ 
+ 
+ 
+2. System analysis  
+2.1 Existing systems  
+ 
+Procedure of Analyzing the Existing System 
+  
+System analyst while analyzing the existing system should: 
+  
+1. Carryout theanalysisof thesystemataplacewherethesystemisfunctioning.Thisstep                 
+will ensure that the analyst is accepted as one of those operating the system. 
+2. Notedownthekeypersonnel inthesystembesidestheheadof thedepartment.Thekey                
+personnel are those who contribute towards the system operations. 
+3. Spendsometimewiththeoperatingpersonnelandobservethesystemtounderstandthe              
+finer details of the system. 
+4. Define the scope of the system and its objective. 
+5. Collect all thedocumentswhichareraisedinthesystem.Thesedocumentscarrydata              
+from one point to another. The documents could be printed or handwritten. 
+6. Collect separately the outputs such as statements, reports,memos, etc.made in the             
+system to throw more light on the information it generates. 
+7. Makea listof rules, formulae, guidelines, policies, etc.,whichareusedinrunningthe               
+system. 
+8. Note down the checkpoints and the controls used in the systemto ensure that the               
+dataflow is complete, processing of the data is correct and the analysis is precise. 
+9. Studytheflowofdatainthesysteminunits,summaryandaggregatesfromdocumentto                
+document from one stage to the other. 
+10.Makeasmallsystemnoteasabasedocumentandseekanappointmentwitheachheadof                 
+the department to discuss the system. 
+11.Examinewhether theachievement of thesystem'sobjectives is feasible inthepresent             
+system. 
+12.If there are problems in the feasibilityof implementation, thenexaminewhether the             
+present systemcanbemodifiedbyintroductionofdocuments,controls,proceduresand            
+systems.Ifthisisnotpossible,redefinethescopeofthesystemandobjectivesinthelight                 
+of the study. 
+13.Drawa revisedsystemflowchart to indicatehowthesystemruns themajor stepsof                
+processing the information. This chart should includeall themodificationswhichhad            
+been suggested and accepted. 
+14.Discuss theflowchartwiththepersonneloperatingthesystemsothat theyunderstand              
+the system. 
+15.Makea listof theoutputs(statements, reports)containinginformation.Get thecontents             
+of the reports approved by the head of the department. 
+16.Analyze the requirements of the information and reports from the utility point of view. 
+17.Compare the costs of the old and the new system, and benefits offered. 
+18.Obtain approval of the new system from the users and the top management. 
+19.Writeasystemmanual foruseof thepeopleinthedepartment forreferencetotheother                 
+users of the system. 
+  
+  
+ 
+2.2 Scope and limitations of existing systems  
+The purpose of a scope and limitations statement is to provide an outline of your project and 
+timeline with major tasks to be accomplished for the project and which team member will take a 
+leadership role and responsibility for the task. 
+These project management limitations occur through variations in collected data. The mere 
+disagreement among team members can affect a project's control as well as past project failures. 
+Good managers will develop control limit paths and set standards when issues such as these 
+arise. 
+Scope identifies all of the things which the project can complete over; limitations identify the 
+boundaries, i.e., those things which are beyond scope.  
+2.3 Project perspective, features  
+There are seven characteristics of project: 
+● A single definable purpose, end-item or result. 
+● Every project is unique.  
+● Projects are temporary activities.  
+● Projects cut across organizational lines. 
+● Projects involve unfamiliarity.  
+● The organization usually has something at stake when undertaking a project. 
+Four Important Project Characteristics 
+There are several important characteristics of any project that will help to determine where on 
+the SDLC continuum a project is best located. Let's consider the four most important: 
+complexity, reoccurrence, predictability, and plannability. 
+ 
+Complexity 
+Required domainknowledge, necessary learningandexploration, amount of innovation, and           
+levels of customer and stakeholder involvement are just some of the characteristics that             
+determinethecomplexityofaproject.Forexample,highrequireddomainknowledgeincreases             
+complexitybecausemoredomainknowledgemeansmoreriskoferrorwhentransferringthat             
+knowledge to a developer–requiringmore, andmore frequent, feedback, prototyping,            
+innovation, and so on. 
+Reoccurrence 
+Reoccurrenceisafactorofbothhowmanytimesaprojecthasbeenconducted,andthelevelof                  
+variancebetweenprojects.Annualorsemi-annualprojectswithlittledeviationbetweenprojects            
+willhaveahighreoccurrencefactor.Conversely,projectswhicharebeingconductedforthefirst               
+time, or which have large variability from one time to the next, will have a low recurrence factor. 
+Predictability 
+Predictability refers to the statistical probability that a taskwilloccuraspredicted.Different              
+project typeslendthemselvestovariouslevelsofpredictability,primarilyduetotheamountof               
+performanceinformationandthetaskcontrolmechanismsinplacethatcanimprovetheabilityto               
+peer into the future. Thus, a stable taskwhichhasbeen repeatedoften–suchas runninga                  
+financial report everyMondaymorning–willhaveahigherpredictabilitythanthefirst time               
+attempting to run the same report. 
+Plannability 
+Plannabilityrefers totheprobabilitythatproject resourceswillbeavailablewhenplanned,and              
+that tasks will occur when planned. Projects with insulated teams tend to have higher              
+plannabilitythanprojects that requireinteractionbetweenteamsorotheragencies.Also,atask              
+mayhavehighpredictability, but lowplannability.Forexample, theestimatedtimetoproduce              
+thereoccurringfinancial reportdiscussedabovemayhaveahighpredictabilityonceallof the               
+datahasbeenacquired,but lowplannabilityifthedatahastobeacquiredfromdifferentsources                 
+with different priorities for providing the information in a timely manner. 
+Expanded SDLC Continuum 
+The high or low state for each of these characteristics will determine where a project falls on the 
+SDLC Continuum, shown below  
+ 
+As can be seen, projects that have higher predictability and plannability, and which have a higher 
+reoccurrence, tend to favor the waterfall approach, while those on the low side of these 
+characteristics tend to favor the agile approach. This is primarily due to the fact that projects with 
+high predictability, plannability, and reoccurrence tend that also have long, stable planning 
+windows that justify the upfront planning and requirements gathering that are part and parcel for 
+Waterfall projects. Projects with low predictability, etc., tend to only support short planning 
+windows that require more adaptive control methods. 
+Complexity is not as straight-forward as the other three characteristics, as therehavebeen              
+successful,complexprojectsonbothsidesofthecontinuum.However,complexitytendstohave              
+aninverserelationshipwithplannabilityandpredictabilityand, thus, highcomplexitytendsto             
+favor themoreadaptivemethods.Complexprojectswithhighreoccurrence,however,mayoffset             
+some of this. 
+REPORT THIS AD 
+Summary 
+The below chart summarizes the four project characteristics discussed in this post (click to 
+enlarge): 
+Utilizing this chart can help provide some guidance for determining which of the main project 
+management types to propose and utilize for any type of project. 
+2.4 Stakeholders 
+Stakeholders are individuals who either care about or have a vested interest in your project. The 
+customer, subcontractors, suppliers, and sometimes even the government are stakeholders. The 
+project manager, project team members, and the managers from other departments in the 
+organization are stakeholders as well. 
+Four types of stakeholders: users, governance, influencers and providers, which all together go 
+by the acronym UPIG. 
+Key stakeholders can provide requirements or constraints based on information from their 
+industry that will be important to have when understanding project constraints and risks. The 
+more you engage and involve stakeholders, the more you will reduce and uncover risks on your 
+project. 
+2.5 Requirement analysis  
+Requirements analysis is nearly self-explanatory: it's the process of defining the expectations of 
+stakeholders on a project. It analyzes, documents, validates and manages all of the identified 
+requirements—while considering the possibility that there are conflicting requirements among 
+stakeholders. 
+What is a requirement analysis document? 
+The results of the requirements elicitation and the analysis activities are documented in the 
+Requirements Analysis Document (RAD). This document completely describes the system in 
+terms of functional and nonfunctional requirements and serves as a contractual basis between the 
+customer and the developer. 
+ Requirements analysis includes three types of activities: Eliciting requirements: (e.g. the project 
+charter or definition), business process documentation, and stakeholder interviews. 
+2.6 Functional requirements, performance requirements, security requirements etc. 
+In software engineering, a ​ functional requirement​ defines a system or its activities. 
+Non-Functional Testing like ​ Performance​, Stress, Usability, ​ Security​ testing, ​ etc​.  
+Functional requirements may involve calculations, technical details, data manipulation and 
+processing, and other specific functionality that define what a system is supposed to accomplish. 
+Behavioral requirements describe all the cases where the system uses the functional 
+requirements, these are captured in use cases. 
+Functional Vs Non-Functional Requirements: The Comparison Table 
+The difference between functional and non-functional requirements given below : 
+Functional 
+Parameters 
+Requirement 
+Non-Functional 
+Requirement 
+Requirement 
+Capturing type 
+End-result 
+Capturing 
+Objective 
+It is mandatory 
+It is captured in use case. 
+Product feature 
+Easy to capture 
+Helps you verify the 
+functionality of the 
+software. 
+It is non-mandatory 
+It is captured as a quality 
+attribute. 
+Product properties 
+Hard to capture 
+Helps you to verify the 
+performance of the software. 
+Area of focus 
+Focuses on user 
+requirement 
+Concentrates on the user's 
+expectation and experience. 
+Documentation 
+Describe what the 
+product does 
+Describes how the product 
+works 
+Product Info Product Features Product Properties 
+ 
+ 
+What are security functional requirements? 
+Functional security requirements describe functional behavior that enforces security. Functional 
+requirements can be directly tested and observed. Requirements related to access control, data 
+integrity, authentication, and wrong password lockouts fall under functional requirements. 
+ 
+What are performance requirements? 
+Performance requirements define how well the system performs certain functions under specific 
+conditions. Examples are speed of response, throughput, execution time and storage capacity. 
+Like most quality attributes, performance requirements are key elements when designing and 
+testing the product. 
+ 
+3. System Design  
+3.1
+ Design constraints  
+The three primary constraints are time, scope and cost. These are frequently known as the triple 
+constraints or the project management triangle. 
+The following are common types of design constraint. 
+● Commercial Constraints. Basic commercial constraints such as time and budget. 
+● Requirements. Functional requirements such as specifications of features for a website. 
+● Non-Functional Requirements.  
+● Compliance.  
+● Style.  
+● Sensory Design.  
+● Usability.  
+● Principles. 
+3.2  System Model: UML diagrams  
+A UML diagram is a diagram based on the UML (Unified Modeling Language) with the purpose of 
+visually representing a system along with its main actors, roles, actions, artifacts or classes, in order to 
+better understand, alter, maintain, or document information about the system. 
+List of UML Diagram Types 
+what are the different UML diagram types? 
+There are two main categories; ​ structure diagrams
+1. Structure ​ Diagram 
+      a. Class Diagram 
+a. Component Diagram 
+b. Deployment Diagram 
+c. Object Diagram 
+d. Package Diagram 
+e. Profile Diagram 
+f.
+Composite Structure Diagram 
+ and ​ behavioral diagrams
+.  
+2. Behavioral Diagrams 
+a. Use Case Diagram 
+b. Activity Diagram 
+c. State Machine Diagram 
+d. Sequence Diagram 
+e. Communication Diagram 
+f.
+Interaction Overview Diagram 
+g. Timing Diagram 
+Structure diagrams
+ show the things in the modeled system. In a more technical term, they show 
+different objects in a system. ​ Behavioral diagrams
+ show what should happen in a system. They 
+describe how the objects interact with each other to create a functioning system. 
+Class Diagram 
+Class diagrams are the main building block of any object-oriented solution. It shows the classes in a 
+system, attributes, and operations of each class and the relationship between each class. 
+In most modeling tools, a class has three parts. Name at the top, attributes in the middle and operations or 
+methods at the bottom. In a large system with many related classes, classes are grouped together to create 
+class diagrams. Different relationships between classes are shown by different types of arrows. 
+Below is an image of a class diagram. 
+Component Diagram 
+A component diagram displays the structural relationship of components of a software system. 
+These are mostly used when working with complex systems with many components. 
+Components communicate with each other using interfaces.. The interfaces are linked using 
+connectors. Th\e image below shows a component diagram. 
+Deployment Diagram 
+A deployment diagram shows the hardware of your system and the software in that hardware. 
+Deployment diagrams are useful when your software solution is deployed across multiple 
+machines with each having a unique configuration. Below is an example deployment diagram. 
+Object Diagram 
+Object Diagrams, sometimes referred to as Instance diagrams are very similar to class diagrams. 
+Like class diagrams, they also show the relationship between objects but they use real-world 
+examples. 
+They show how a system will look like at a given time. Because there is data available in the 
+objects, they are used to explain complex relationships between objects. 
+Package Diagram 
+As the name suggests, a package diagram shows the dependencies between different packages in 
+a system. 
+Profile Diagram 
+Profile diagram is a new diagram type introduced in UML 2. This is a diagram type that is very 
+rarely used in any specification. 
+Composite Structure Diagram 
+Composite structure diagrams are used to show the internal structure of a class. 
+Use Case Diagram 
+As the most known diagram type of the behavioral UML types, Use case diagrams give a graphic 
+overview of the actors involved in a system, different functions needed by those actors and how 
+these different functions interact. 
+It’s a great starting point for any project discussion because you can easily identify the main 
+actors involved and the main processes of the system.  
+Activity Diagram 
+Activity diagrams represent workflows in a graphical way. They can be used to describe the 
+business workflow or the operational workflow of any component in a system. Sometimes 
+activity diagrams​ are used as an alternative to State machine diagrams.
+State Machine Diagram 
+State machine diagrams​ ​ are similar to activity diagrams, although notations and usage change a 
+bit. They are sometimes known as state diagrams or state chart diagrams as well. These are very 
+useful to describe the behavior of objects that act differently according to the state they are in at 
+the moment. The State machine diagram below shows the basic states and actions. 
+Sequence Diagram 
+Sequence diagrams in UML show how objects interact with each other and the order those 
+interactions occur. It’s important to note that they show the interactions for a particular scenario. 
+The processes are represented vertically and interactions are shown as arrows. This article 
+explains the​ ​ purpose and the basics of Sequence diagrams​. 
+Sequence diagram drawn using Creately 
+Communication Diagram 
+In UML 1 they were called collaboration diagrams. Communication diagrams are similar to 
+sequence diagrams, but the focus is on messages passed between objects. The same information 
+can be represented using a sequence diagram and different objects. 
+Interaction Overview Diagram 
+Interaction overview diagrams are very similar to activity diagrams. While activity diagrams 
+show a sequence of processes, Interaction overview diagrams show a sequence of interaction 
+diagrams. 
+They are a collection of interaction diagrams and the order they happen. As mentioned before, 
+there are seven types of interaction diagrams, so any one of them can be a node in an interaction 
+overview diagram. 
+Timing Diagram 
+Timing diagrams are very similar to sequence diagrams. They represent the behavior of objects 
+in a given time frame. If it’s only one object, the diagram is straightforward. But, if there is more 
+than one object is involved, a Timing diagram is used to show interactions between objects 
+during that time frame.  
+ 
+Mentioned above are all the UML diagram types. UML offers many diagram types, and 
+sometimes two diagrams can explain the same thing using different notations. 
+ 
+ 
+ 
+3.3  Data Model  
+A data model (or data model) is an abstract model that organizes elements of data and standardizes how they 
+relate to one another and to the properties of real-world entities. 
+What are the types of data models? 
+There are three different types of data models: conceptual, logical and physical, and each has a specific purpose. 
+● Conceptual Data Models: High-level, static business structures and concepts. 
+● Logical Data Models: Entity types, data attributes and relationships between entities. 
+● Physical Data Models: The internal schema database design 
+Datamodels define how the logical structure of a database ismodeled. DataModels are               
+fundamental entities to introduce abstraction in aDBMS.Datamodelsdefinehowdata is              
+connected to each other and how they are processed and stored inside the system. 
+Entity-Relationship Model 
+Entity-Relationship(ER)Model isbasedonthenotionofreal-worldentitiesandrelationships             
+amongthem.Whileformulatingreal-worldscenarios intothedatabasemodel, theERModel             
+creates entity set, relationship set, general attributes and constraints. 
+ER Model is best used for the conceptual design of a database. 
+ER Model is based on − 
+● Entities and their ​attributes. 
+● Relationships among entities. 
+These concepts are explained below. 
+ 
+● Entity − An entity in an ER Model is a real-world entity having properties called 
+attributes. Every attribute is defined by its set of values called domain. For example, in a 
+school database, a student is considered as an entity. Student has various attributes like 
+name, age, class, etc. 
+● Relationship − The logical association among entities is called ​relationship​. 
+Relationships are mapped with entities in various ways. Mapping cardinalities define the 
+number of association between two entities. 
+Mapping cardinalities − 
+○ one to one 
+○ one to many 
+○ many to one 
+○ many to many 
+Relational Model 
+Themostpopulardatamodel inDBMSistheRelationalModel. It ismorescientificamodel                 
+thanothers.Thismodel isbasedonfirst-orderpredicate logicanddefinesatableasann-ary                 
+relation. 
+ 
+The main highlights of this model are − 
+● Data is stored in tables called relations. 
+● Relations can be normalized. 
+● In normalized relations, values saved are atomic values. 
+● Each row in a relation contains a unique value. 
+● Each column in a relation contains values from a same domain. 
+3.4  User interfaces  
+User interface​ helps the developer/designer to create the end product in a logical and sequential 
+way. ​ User Interface​ (UI) design has four main elements: Usability, Visualization, Functionality 
+and Accessibility.  
+Elements of ​ Interface​ Design. 
+I
+nterface elements include but are not limited to: 
+● Input Controls: checkboxes, radio buttons, dropdown lists, list boxes, buttons, toggles, 
+text fields, date fields.. 
+● Navigational Components: breadcrumb, slider, search field, pagination, slider, tags, 
+icons. 
+Input Controls 
+Сheckboxes 
+Checkboxes allow the user to select one or more options from a set. It is usually 
+best to present checkboxes in a vertical list. More than one column is acceptable 
+as well if the list is long enough that it might require scrolling or if the 
+comparison of terms might be necessary. 
+Radio buttons 
+Radio buttons are used to allow users to select one item at a time. 
+Dropdown lists 
+Dropdown lists allow users to select one item at a time, similarly to radio buttons 
+but are more compact allowing you to save space. Consider adding text to the 
+field, such as ‘Select one’ to help the user recognize the necessary action. Some 
+people consider them rather irritating than useful. But this really depends on a 
+purpose and context. 
+List boxes 
+List boxes, like checkboxes, allow users to select multiple items at a time, but are 
+more compact and can support a long list of options if needed. 
+Buttons 
+A button indicates an action upon touch and is typically labeled using text, an 
+icon, or both. The​ dropdown button
+ consists of a button that when clicked 
+displays a drop-down list of mutually exclusive items. 
+Toggles 
+A toggle button allows the user to change a setting between two states. They are 
+most effective when the on/off states are visually distinct. 
+Text fields 
+Text fields allow users to enter text. It can allow either a single line or multiple 
+lines of text. 
+Date field 
+A date picker allows users to select a date and/or time. By using the picker, the 
+information is consistently formatted and input into the system. The same picker 
+is used for time. 
+Navigational Components 
+Breadcrumb 
+Breadcrumbs allow users to identify their current location within the system by 
+providing a clickable trail of proceeding pages to navigate by. 
+Search field 
+Basically, this is a search box that allows users to enter a keyword or phrase 
+(query) and submit it to search the index with the intention of getting back the 
+most relevant results. Typically search fields are single-line text boxes and are 
+often accompanied by a search button. 
+Pagination 
+Pagination divides content up between pages and allows users to skip between 
+pages or go in order through the content. 
+Slider 
+Tags 
+Icons 
+A slider, also known as a track bar, allows users to set or adjust a value. When the 
+user changes the value, it does not change the format of the interface or other info 
+on the screen. 
+Tags allow users to find content in the same category. Some tagging systems also 
+allow users to apply their own tags to content by entering them into the system. 
+An icon is a simplified image serving as an intuitive symbol that is used to help 
+users to navigate the system. Typically, icons are hyperlinked. 
+Image carousel 
+Image carousels allow users to browse through a set of items and make a selection 
+of one if they so choose. Typically, the images are hyperlinked. Make sure they 
+do not automatically rotate very fast. 
+Informational Components 
+Tooltips 
+A tooltip allows a user to see hints when they hover over an item indicating the 
+name or purpose of the item. 
+Icons 
+Here icons serve the purpose of providing the users with the information about 
+what’s hidden behind and what might happen if the user will press an icon. 
+Progress bar 
+A progress bar indicates where a user is as they advance through a series of steps 
+in a process. Typically, progress bars are not clickable. 
+Notifications 
+A notification is an update message that announces something new for the user to 
+see. Notifications are typically used to indicate items such as the successful 
+completion of a task, or an error or warning message. 
+Message boxes 
+A message box is a small window that provides information to users and requires 
+them to take an action before they can move forward. 
+Modal windows
+ (Pop-up) 
+A modal window requires users to interact with it in some way before they can 
+return to the system. 
+Containers 
+Accordion 
+An accordion is a vertically stacked list of items that utilize show/ hide 
+functionality. When a label is clicked, it expands the section showing the content 
+within. There can have one or more items showing at a time and may have default 
+states that reveal one or more sections without the user clicking. 
+4. Implementation details  
+4.1 Software/hardware specifications  
+Software requirements specification report​ describes: 
+1The intended purpose 
+2 ​ System​ Architecture  
+3​ Client-Server Architecture 
+4 Design and ​Implementation 
+5Server ​details​, ​software​ installation procedures etc.  
+ For Example: 
+Hardware Requirements 
+● Pentium IV or higher, (PIV-300GHz recommended) 
+● 256 MB RAM 
+● 1 Gb hard free drive space 
+           Software Requirements 
+● PHP (front end) 
+● HTML 
+● JavaScript 
+● MS Word 97 or later 
+● Web Browser: Microsoft Internet Explorer, Mozilla, Google Chrome or later 
+● MySQL Server (back-end) 
+● Operating System: Windows XP / Windows7/ Windows Vista 
+5. Outputs and Reports  
+Outputs 
+Thesearethefirst levelofresultsassociatedwithaproject.Oftenconfusedwith“activities”,outputs                
+are thedirect immediatetermresultsassociatedwithaproject. Inotherwords, theyareusuallywhat                 
+theprojecthasachievedintheshortterm.Aneasywaytothinkaboutoutputsistoquantifytheproject                    
+activities that have a direct link on the project goal. 
+Anoutputcanbeadocument,aproduct,aservice,oraresult.Aninputtoaprocesscanbeanoutput                      
+fromanotherprocess,orthingssuchasdocuments,companypolicies,andtemplatescreatedoutsideof               
+the project management processes.  
+ 
+ 
+ 
+What are project reports? 
+ProjectReportsareusedwhenyouneedtocommunicate thestatusofaproject.Youcancomplete                 
+Project Reports on a weekly basis and ensure that they are sent to all of your project stakeholders. 
+Types of project management reports are as follows: 
+● Team availability report. 
+● Status report. 
+● Project health report. 
+● Risk assessment. 
+● Time tracking report. 
+● Baseline reports. 
+ 
+6. Testing  
+6.1 Test Plan, Black Box Testing or Data Validation Test Cases, White Box Testing  
+or Functional Validation Test cases and results  
+SoftwareTesting is evaluationof thesoftwareagainst requirementsgatheredfromusersand             
+systemspecifications.Testingisconductedatthephaselevelinsoftwaredevelopmentlifecycle              
+or at module level in program code. Software testing comprises Validation and Verification. 
+Software Validation 
+Validation is the process of examining whether or not the software satisfies the user              
+requirements. It iscarriedoutat theendof theSDLC(SystemDevelopmentLifeCycle). If the                
+software matches requirements for which it was made, it is validated. 
+● Validation ensures the product under development is as per the user requirements. 
+● Validationanswersthequestion–"Arewedevelopingtheproductwhichfulfillsalluser              
+needs from this software ?". 
+● Validation emphasizes on user requirements. 
+Software Verification 
+Verificationis theprocessofconfirmingif thesoftwareismeetingthebusinessrequirements,              
+and is developed with  the proper specifications and methodologies. 
+● Verification ensures the product being developed is according to design specifications. 
+● Verification answers the question–"Arewe developing this product byour design            
+specifications ?" 
+● Verifications concentrate on the design and system specifications. 
+Target of the test are - 
+● Errors-Theseareactual codingmistakesmadebydevelopers. Inaddition, there isa               
+difference in output of software and desired output is considered as an error. 
+● Fault-Whenerrorexistsfaultoccurs.Afault,alsoknownasabug,isaresultofanerror                    
+which can cause a system to fail. 
+● Failure ​-failure is said tobe the inabilityof thesystemtoperformthedesiredtask.                 
+Failure occurs when fault exists in the system. 
+Manual Vs Automated Testing 
+Testing can either be done manually or using an automated testing tool: 
+● Manual-This testingisperformedwithout takinghelpofautomatedtestingtools.The              
+software testerprepares testcasesfordifferentsectionsandlevelsof thecode,executes              
+the tests and reports the result to the manager. 
+Manual testingis timeandresourceconsuming.Thetesterneedstoconfirmwhetheror              
+not right test cases are used. Major portion of testing involves manual testing. 
+● Automated-Thistestingisatestingproceduredonewithaidofautomatedtestingtools.              
+The limitations with manual testing can be overcome using automated test tools. 
+AtestneedstocheckifawebpagecanbeopenedinInternetExplorer.Thiscanbeeasilydone                   
+withmanual testing.But tocheckif theweb-servercantake the loadof1millionusers, it is                   
+quite impossible to test manually. 
+Thereare softwareandhardware toolswhichhelp testers inconducting load testing, stress              
+testing, regression testing. 
+Testing Approaches 
+Tests can be conducted based on two approaches – 
+● Functionality testing 
+● Implementation testing 
+When functionality isbeing testedwithout takingtheactual implementationinconcernit is              
+known as black-box testing. The other side isknownaswhite-box testingwherenot only               
+functionality is tested but the way it is implemented is also analyzed. 
+Exhaustive testsare thebest-desiredmethodforperfect testing.Everysinglepossiblevaluein              
+therangeof theinputandoutputvaluesistested. It isnotpossibletotesteachandeveryvalue                    
+in a real world scenario if the range of values is large. 
+Black-box testing 
+It iscarriedout totest functionalityof theprogram. It isalsocalled‘Behavioral’ testing.The                 
+tester inthiscase,hasasetofinputvaluesandrespectivedesiredresults.Onprovidinginput,if                  
+the output matches with the desired results, the program is tested ‘ok’, and problematic              
+otherwise. 
+ 
+ 
+ 
+ 
+In this testingmethod, thedesignandstructureof thecodearenotknowntothe tester, and                  
+testing engineers and end users conduct this test on the software. 
+Black-box testing techniques:  
+● Equivalenceclass-The input isdividedintosimilarclasses. Ifoneelementofaclass                
+passes the test, it is assumed that all the class is passed. 
+● Boundaryvalues-Theinput isdividedintohigherandlowerendvalues.Ifthesevalues                
+pass the test, it is assumed that all values in between may pass too. 
+● Cause-effect graphing-Inbothpreviousmethods, onlyone input valueat a time is               
+tested.Cause(input)–Effect (output) isatestingtechniquewherecombinationsofinput              
+values are tested in a systematic way. 
+● Pair-wiseTesting-Thebehaviorofsoftwaredependsonmultipleparameters.Inpairwise             
+testing, the multiple parameters are tested pair-wise for their different values. 
+● State-basedtesting-Thesystemchangesstateonprovisionof input.Thesesystemsare              
+tested based on their states and input. 
+White-box testing 
+It isconductedtotestprogramsanditsimplementation, inorder toimprovecodeefficiencyor                
+structure. It is also known as ‘Structural’ testing. 
+ 
+In this testingmethod, the design and structure of the code are known to the tester.                
+Programmers of the code conduct this test on the code. 
+The below are some White-box testing techniques: 
+● Control-flowtesting-Thepurposeof thecontrol-flowtestingtosetuptestcaseswhich               
+covers all statementsandbranchconditions.Thebranchconditionsare testedforboth             
+being true and false, so that all statements can be covered. 
+● Data-flow testing-This testing techniqueemphasizes tocover all thedatavariables             
+includedintheprogram.Ittestswherethevariablesweredeclaredanddefinedandwhere               
+they were used or changed. 
+Testing Levels 
+Testingitselfmaybedefinedatvarious levelsofSDLC.The testingprocess runsparallel to                
+software development. Before jumping on the next stage, a stage is tested, validated and              
+verified. 
+Testingseparatelyisdone just tomakesurethat therearenohiddenbugsor issuesleft inthe                   
+software. Software is tested on various levels - 
+Unit Testing 
+Whilecoding, theprogrammerperformssometestsonthatunitofprogramtoknowifitiserror                  
+free. Testing is performed underwhite-box testingapproach.Unit testinghelpsdevelopers            
+decide that individual units of the program are working as per requirement and are error free. 
+Integration Testing 
+Evenif theunitsofsoftwareareworkingfineindividually,thereisaneedtofindoutiftheunits                    
+if integratedtogetherwouldalsoworkwithouterrors.Forexample,argumentpassinganddata              
+updation etc. 
+System Testing 
+Thesoftwareiscompiledasaproductandthenitistestedasawhole.Thiscanbeaccomplished                   
+using one or more of the following tests: 
+● Functionality testing - Tests all functionalities of the software against the requirement. 
+● Performance testing-This test proves how efficient the software is. It tests the              
+effectivenessandaveragetimetakenbythesoftwaretodothedesiredtask.Performance              
+testingisdonebymeansofloadtestingandstresstestingwherethesoftwareisputunder                 
+high user and data load under various environment conditions. 
+● Security&Portability-These tests aredonewhen thesoftware ismeant toworkon                
+various platforms and accessed by number of persons. 
+Acceptance Testing 
+When the software is ready tohandover tothecustomer ithas togothroughlastphaseof                   
+testingwhereit istestedforuser-interactionandresponse.Thisisimportantbecauseevenifthe                
+softwarematchesalluserrequirementsandiftheuserdoesnotlikethewayitappearsorworks,                  
+it may be rejected. 
+● Alpha testing-The teamofdevelopers themselvesperformalpha testingbyusingthe              
+systemas if it isbeingusedintheworkenvironment.Theytrytofindouthowusers                  
+would react to some action in software and how the system should respond to inputs. 
+● Betatesting-Afterthesoftwareistestedinternally,itishandedovertotheuserstouseit                   
+under their production environment only for testingpurposes. This isnot asyet the              
+deliveredproduct.Developersexpect thatusersat thisstagewillbringminuteproblems,             
+which were skipped to attend. 
+Regression Testing 
+Whenever a softwareproduct isupdatedwithnewcode, featureor functionality, it is tested               
+thoroughly to detect if there is any negative impact of theaddedcode. This isknownas                 
+regression testing. 
+Testing Documentation 
+Testing documents are prepared at different stages - 
+Before Testing 
+Testing starts with test cases generation. Following documents are needed for reference – 
+● FRS document - Functional Requirements document 
+● TestPolicydocument-Thisdescribeshowfar testingshouldtakeplacebeforereleasing              
+the product. 
+● TestStrategydocument-Thismentionsdetailedaspectsof thetest team, responsibility             
+matrix and rights/responsibility of test manager and test engineer. 
+● TraceabilityMatrixdocument-This is the SDLCdocument,whichis relatedtothe              
+requirementgatheringprocess.Asnewrequirementscome,theyareaddedtothismatrix.             
+Thesematriceshelptestersknowthesourceofrequirement.Theycanbetracedforward              
+and backward. 
+While Being Tested 
+The following documents may be required while testing is started and is being done: 
+● TestCasedocument-Thisdocumentcontainsalistof testsrequiredtobeconducted. It                
+includes Unit test plan, Integration test plan, System test plan and Acceptance test plan. 
+● Testdescription-Thisdocument isadetaileddescriptionofalltestcasesandprocedures               
+to execute them. 
+● Test case report - This document contains a test case report as a result of the test. 
+● Test logs - This document contains test logs for every test case report. 
+After Testing 
+The following documents may be generated after testing : 
+● Test summary-This test summaryiscollectiveanalysisofall test reportsandlogs. It                
+summarizes and concludes if the software is ready to be launched. The software is              
+released under the version control system if it is ready to launch. 
+ 
+7. Conclusion and Recommendations Future Scope 
+Conclusion 
+The most important thing in conclusion is no new material is included but repeat the objectives you stated in 
+the beginning and  then make the conclusion on it ,whether it is fully matched,partially matched or no 
+matched.It is also ok if objectives are not fully matched,then you have to state that in which part is matched, 
+how it is matched. 
+Limitations 
+Possible reasons for limitations in your research/project may include: 
+● Time – time to write the report  and collect data 
+● Budget – inability to collect data first hand 
+● Access to appropriate interviewees 
+● Limited to the number of questionnaires returned 
+● Limited in the scope of the work achieved 
+● Language 
+● Cultural reasons 
+Recommendations  
+These will be recommendations made as a direct result of the research/project. The 
+recommendations may be for a client/customer, particularly if your research/project is suggested 
+by your sponsoring company,then following points can be asked. 
+● Suggestions for change 
+● Recommendations for new implementations of tools/processes/methods 
+● Advice for further communication of the research/project findings 
+All of these are as a result of your completed research/project work. It is good practise to make a 
+note of where the recommendations came from within the dissertation, so you should refer back 
+to the appropriate place in the literature review, or data analysis, or discussion chapters. Help the 
+reader by indicating the source of your recommendation. 
+Future scope  
+● Future scope that is focused solely on study findings. 
+● Future scope that is focused on the theory or theoretical model misused. 
+● Future scope from lack of literary support. 
+● Future scope on geographical outreach. 
+● Future scope on testing methods and statistics. 
+ 8. Bibliography and References  
+Bibliography 
+It means listing of works used and/or considered by an author while doing the research/project. 
+In bibliography we include : 
+Citation- all intake citations and other researcher’s citations also. 
+Consulted - work that is consulted or read text found useful. 
+Useful part/important - certain things are important as part of research/project and they are useful 
+References  
+It is referenced within your article/book/report. Bibliography is not directly included in your text, but 
+references to those sources are directly included.Means if there are in text citation for a source there is a 
+reference list entry.A reference can be used to support an argument. 
+Both bibliography and references are arranged alphabetically. 
+(
+Visit for more-> https://krazytech.com/projects/software-requirements-specification-report 
